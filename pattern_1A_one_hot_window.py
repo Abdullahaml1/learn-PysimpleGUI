@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 
 
 layout = [[sg.Text('My one-shot window.')],
-                 [sg.InputText(key=None), ]
+                 [sg.InputText(key=None), ],
                  # [sg.InputText(key='-IN-'), ],
                  [sg.Submit(), sg.Cancel()]]
 
